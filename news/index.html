@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ニュース｜SYIO</title>
+    <meta name="description" content="SYIOに関わるお知らせ・活動報告をしています。">
+    <meta name="keywords" content="埼玉ユースイノベーション機構,SYIO,Saitama Youth Innovation Organization,SaitamaYouthInnovationOrganization,Youth,Innovation,Organization,高校生,学生,埼玉県,埼玉,さいたま,プラットフォーム,地域,地域課題,課題,プロジェクト,活動,地域資源,想い,価値,イノベーション,若者,挑戦,社会,つながる,繋がる,機会">
+    <link rel="canonical" href="https://s-youth.jp/">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="SYIO">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://s-youth.jp/news/">
+    <meta property="og:description" content="ニュース｜SYIO">
+    <meta property="og:image" content="https://s-youth.jp/assets/img/common/og_Logo.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="ニュース｜SYIO">
+    <meta property="twitter:url" content="https://s-youth.jp/news/">
+    <meta property="twitter:description" content="SYIOに関わるお知らせ・活動報告をしています。">
+    <meta name="twitter:image" content="https://s-youth.jp/assets/img/common/og_Logo.png">
+    <link rel="icon" href="https://s-youth.jp/assets/img/pageicon/favicon.ico" sizes="any" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/img/pageicon/apple-touch-icon-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="/assets/img/pageicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/news.css">
+  </head>
+  <body>
+    <header class="header">
+        <h1 class="logo">
+          <a href="/">
+            <img src="/assets/img/common/Logo.webp" alt="SYIO">
+          </a>
+        </h1>
+        <h3 class="pc-tb_only">埼玉ユースイノベーション機構<span>Saitama Youth Innovation Organization</span></h3>
+
+        <button class="header_nav_sp nav_sp" id="js_ham" type="button">
+          <span></span>
+          <span></span>
+          <span></span>         
+        </button>
+
+        <nav class="header_menu" id="js_nav">
+          <ul class="header_nav nav_items">
+            <li class="nav_items_item"><a href="/">TOP<span>トップ</span></a></li>
+            <li class="nav_items_item"><a href="/about/">ABOUT<span>私たちについて</span></a></li>
+            <li class="nav_items_item"><a href="/projects/">PROJECTS<span>プロジェクト</span></a></li>
+            <li class="nav_items_item active"><a href="/news/">NEWS<span>お知らせ</span></a></li>
+            <li class="nav_items_item"><a href="/partners/">PARTNERS<span>協力団体・企業</span></a></li>
+            <li class="nav_items_item"><a href="/contact/">CONTACT<span>お問い合わせ</span></a></li>
+            <div class="header_social">
+              <ul class="header_nav_snslinks">
+                <li><a href="https://www.instagram.com/syio.official" target="_blank"><img src="/assets/img/common/InstagramLogo-Normal.svg" alt="Instagram"></a></li>
+                <li><a href="https://x.com/InQubizofficial" target="_blank"><img src="/assets/img/common/XLogo-Black.svg" alt="X"></a></li>
+                <li><a href="https://youtube.com/channel/UCGOH27UBoNZQS0FKkeqV7yg?si=mDZcnO8biHUqrBSs" target="_blank"><img src="/assets/img/common/youtube_icon-red.svg" alt="Youtube"></a></li>
+              </ul> 
+            </div>
+          </ul>
+        </nav>
+    </header> <!-- /header -->
+    
+    <main>
+      <section class="news">
+      <div class="news_title">
+        <p>NEWS</p>
+        <h2>お知らせ</h2>
+      </div>
+      <div class="category">
+        <button class="active" data-category="all">All</button>
+        <button data-category="news">News</button>
+        <button data-category="event">Event</button>
+      </div>
+      <div id="news-list"></div>
+      <div id="pagination"></div>
+    </section> <!-- /.news -->
+    </main> <!-- /main -->
+
+    <footer class="footer">
+      <div class="footer_sns-links">
+        <h2>公式SNSアカウント</h2>
+        <ul>
+          <li><a href="https://www.instagram.com/syio.official" target="_blank"><img src="/assets/img/common/footer_instagram.svg" alt="Instagram"></a></li>
+          <li><a href="https://x.com/InQubizofficial" target="_blank"><img src="/assets/img/common/footer_X.svg" alt="X"></a></li>
+          <li><a href="https://youtube.com/channel/UCGOH27UBoNZQS0FKkeqV7yg?si=mDZcnO8biHUqrBSs" target="_blank"><img src="/assets/img/common/footer_youtube.svg" alt="Youtube"></a></li>
+        </ul>
+      </div>
+      <nav class="footer_block-menu">
+        <ul>
+          <li><a href="/about/">ABOUT</a></li>
+          <li><a href="/projects/">PROJECTS</a></li>
+          <li><a href="/news/">NEWS</a></li>
+          <li><a href="/partners/">PARTNERS</a></li>
+          <li><a href="/contact/">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="policy">
+        <ul>
+          <li><a href="/privacy-policy/">プライバシーポリシー</a></li>
+          <li><a href="/terms-of-service/">サイト利用規約</a></li>
+          <li><a href="/disclaimer/">免責事項</a></li>
+          <li><a href="/event-policy/">イベント参加注意事項</a></li>
+        </ul>
+      </div>
+      <h2 class="footer_logo">
+        <img src="/assets/img/common/Logo.webp" alt="SYIO">
+      </h2>
+      <p class="copyright"><small>Copyright &copy; 2026 SYIO & Saitama Youth Innovation Organization All Rights Reserved.</small></p>
+    </footer> <!-- /footer -->
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/news.js"></script>
+  </body>
+</html>
